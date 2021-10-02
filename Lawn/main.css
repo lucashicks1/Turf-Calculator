@@ -1,0 +1,127 @@
+* {
+    font-family: "Poppins";
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.noblue{
+    color: inherit;
+    text-decoration: none;
+}
+.footerl{
+    text-decoration:none; color:inherit;
+}
+.nobullet{
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+.home {
+  height: 75vh;
+  min-height: 200px;
+  background-image: url('Images/homehead.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.about {
+  height: 75vh;
+  min-height: 200px;
+  background-image: url('Images/turffarm.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bounce {
+	-webkit-animation: bounce 2s;
+	        animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.quicklinks h3{
+    color: white;
+}
+.quicklinks img {
+  width: 350px;
+  filter: grayscale(90%);
+  transition: filter 0.6s ease;
+}
+
+.quicklinks img:hover {
+  filter: grayscale(5%);
+}
+
+.headertext{
+    font-size: 100px;
+}
+.buttona a:hover{
+    color:black;
+}
+
+.tda{
+    word-break:break-all;
+}
